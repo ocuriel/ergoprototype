@@ -1,0 +1,12 @@
+/* ERGO Group (ergo.com) brand overrides — load AFTER tokens.css */
+:root {
+  --en-logo-red:       #BF1528;
+  --en-canvas:         #ebf8f9;  /* ergo.com light blue */
+  --en-font-sans: "FS Me CC", "FS Me", "FS Me Neue", "Helvetica Neue", helvetica, arial, sans-serif;
+  --en-font-serif: "Fedra Serif CC", "Fedra Serif", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+/* FS Me — loaded from ergo.com's own clientlib (falls back to Helvetica if blocked) */
+@font-face { font-family: "FS Me CC"; font-weight: 300; font-display: swap; src: local("FSMeWeb Light"), local("FSMeWeb-Light"), url(https://www.ergo.com/etc.clientlibs/carbon/core/clientlibs/clientlib-cc-resources-v1/resources/fonts/fsme/FSMeWeb-Light.woff) format("woff"); }
+@font-face { font-family: "FS Me CC"; font-weight: 400; font-display: swap; src: local("FSMeWeb Regular"), local("FSMeWeb-Regular"), url(https://www.ergo.com/etc.clientlibs/carbon/core/clientlibs/clientlib-cc-resources-v1/resources/fonts/fsme/FSMeWeb-Regular.woff) format("woff"); }
+@font-face { font-family: "FS Me CC"; font-weight: 700; font-display: swap; src: local("FSMeWeb Bold"), local("FSMeWeb-Bold"), url(https://www.ergo.com/etc.clientlibs/carbon/core/clientlibs/clientlib-cc-resources-v1/resources/fonts/fsme/FSMeWeb-Bold.woff) format("woff"); }
